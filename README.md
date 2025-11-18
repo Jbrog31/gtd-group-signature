@@ -63,7 +63,7 @@ gtd-group-signature/
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/gtd-group-signature.git
+git clone https://github.com/Jbrog31/gtd-group-signature.git
 cd gtd-group-signature
 
 Create and activate a virtual environment:
