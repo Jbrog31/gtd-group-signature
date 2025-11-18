@@ -1,4 +1,4 @@
-Terrorist Group Signature Classification Project
+***Terrorist Group Signature Classification Project***
 
 This project applies supervised machine learning to the Global Terrorism Database (GTD) to classify terrorist organizations based on incident narrative text and structured metadata.
 
@@ -9,7 +9,7 @@ The goal is twofold:
 
 The central question is whether simple text-based models can accurately recover organizational identity and whether those discovered signatures align with real-world geographic, tactical, and ideological patterns. This project demonstrates that terrorist groups exhibit strong, consistent signatures that can be identified through text, enabling both accurate classification and analytical insights.
 
-*Groups Included*
+***Groups Included***
 
 This project includes all groups in GTD with more than 100 recorded incidents, excluding:
 
@@ -29,7 +29,7 @@ Examples include:
 - Basque Fatherland and Freedom (ETA)
 - New People’s Army (NPA)
 
-*Project Structure*
+***Project Structure***
 
 "
 gtd-group-signature/
@@ -59,7 +59,7 @@ gtd-group-signature/
 └── README.md
 "
 
-*Installation*
+***Installation***
 
 Clone the repository:
 
@@ -79,7 +79,7 @@ Ensure that the GTD Excel file is placed in:
 
 data/raw/GlobalTerrorismDatabase.xlsx
 
-*Workflow*
+***Workflow***
 
 1. Preprocess the GTD data
 
@@ -131,7 +131,7 @@ These visualizations appear in:
 
 reports/figures/
 
-*Results Summary*
+***Results Summary***
 
 The classification model achieves extremely strong performance:
 
@@ -158,7 +158,7 @@ Error patterns occur primarily among:
 
 This aligns closely with real-world relationships.
 
-*Methodology*
+***Methodology***
 
 This analysis uses the following components:
 
@@ -177,7 +177,7 @@ All code is modular and can be reused for further modeling, such as:
 - Signature evolution
 - Cross-country comparisons
 
-*Future Extensions*
+***Future Extensions***
 
 Potential enhancements include:
 
@@ -188,7 +188,7 @@ Potential enhancements include:
 - Analyzing signature drift over time
 - Evaluating model fairness and confusion across geopolitical regions
 
-*Citation and License*
+***Citation and License***
 
 START (National Consortium for the Study of Terrorism and Responses to Terrorism). (2022). Global Terrorism Database, 1970 - 2020 [data file]. https://www.start.umd.edu/data-tools/GTD
 Users must comply with GTD’s terms and conditions.
