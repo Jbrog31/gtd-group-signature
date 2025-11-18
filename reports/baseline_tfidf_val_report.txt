@@ -1,0 +1,87 @@
+                                                               precision    recall  f1-score   support
+
+                                       Abu Sayyaf Group (ASG)       0.99      0.99      0.99        85
+                                      Al-Aqsa Martyrs Brigade       0.92      0.88      0.90        26
+                                              Al-Nusrah Front       0.93      1.00      0.96        41
+                                             Al-Qaida in Iraq       0.94      1.00      0.97        95
+                     Al-Qaida in the Arabian Peninsula (AQAP)       0.99      0.99      0.99       167
+                       Al-Qaida in the Islamic Maghreb (AQIM)       1.00      0.97      0.99        40
+                                                   Al-Shabaab       1.00      1.00      1.00       663
+                                  Algerian Islamic Extremists       1.00      0.98      0.99        56
+                               Allied Democratic Forces (ADF)       1.00      1.00      1.00        63
+                                                   Anarchists       1.00      0.95      0.97        20
+                                     Anti-Abortion extremists       1.00      1.00      1.00        28
+                                       Anti-Muslim extremists       1.00      0.90      0.95        21
+                                             Arakan Army (AA)       1.00      1.00      1.00        17
+                                    Armed Islamic Group (GIA)       1.00      1.00      1.00        18
+                                 Baloch Liberation Army (BLA)       0.94      0.94      0.94        31
+                                Baloch Liberation Front (BLF)       1.00      0.90      0.95        30
+                                 Baloch Republican Army (BRA)       0.96      1.00      0.98        48
+                   Bangsamoro Islamic Freedom Movement (BIFM)       0.96      1.00      0.98        80
+                              Barisan Revolusi Nasional (BRN)       0.96      1.00      0.98        22
+                          Barqa Province of the Islamic State       1.00      1.00      1.00        26
+                          Basque Fatherland and Freedom (ETA)       0.97      1.00      0.99        37
+                                                   Boko Haram       1.00      1.00      1.00       498
+                                               Chechen Rebels       1.00      1.00      1.00        48
+               Communist Party of India - Maoist (CPI-Maoist)       0.99      1.00      1.00       314
+         Communist Party of Nepal - Maoist (CPN-Maoist-Chand)       0.98      1.00      0.99        45
+                                 Conspiracy theory extremists       1.00      0.89      0.94        19
+Cooperative for the Development of the Congo (CODECO) militia       1.00      1.00      1.00        16
+                    Corsican National Liberation Front (FLNC)       0.95      1.00      0.98        20
+         Democratic Front for the Liberation of Rwanda (FDLR)       1.00      1.00      1.00        18
+                                        Dissident Republicans       1.00      1.00      1.00        19
+                                    Donetsk People's Republic       1.00      1.00      1.00        95
+                                     Free Aceh Movement (GAM)       0.89      1.00      0.94        17
+                                             Free Syrian Army       1.00      0.95      0.98        21
+                                            Fulani extremists       0.99      1.00      0.99       165
+                                Garo National Liberation Army       1.00      1.00      1.00        26
+                                                       Gunmen       1.00      0.92      0.96        36
+                          Hamas (Islamic Resistance Movement)       0.97      1.00      0.98        59
+                                        Hay'at Tahrir al-Sham       1.00      1.00      1.00        17
+                                                    Hezbollah       0.95      0.95      0.95        21
+                                       Hizbul Mujahideen (HM)       0.95      0.97      0.96        40
+                              Houthi extremists (Ansar Allah)       0.99      0.99      0.99       479
+                                  Islamic State of Iraq (ISI)       1.00      1.00      1.00        22
+                  Islamic State of Iraq and the Levant (ISIL)       1.00      0.99      0.99      1088
+                                       Jaish-e-Mohammad (JeM)       0.95      1.00      0.98        20
+                   Jamaat Nusrat al-Islam wal Muslimin (JNIM)       1.00      1.00      1.00        30
+                                                    Janjaweed       1.00      0.97      0.98        32
+                                   Jihadi-inspired extremists       0.73      0.88      0.80        25
+                        Khorasan Chapter of the Islamic State       0.94      1.00      0.97        92
+                               Kurdistan Workers' Party (PKK)       1.00      1.00      1.00       233
+                                   Lashkar-e-Islam (Pakistan)       1.00      1.00      1.00        19
+                                            Lashkar-e-Jhangvi       0.95      0.95      0.95        22
+                                        Lashkar-e-Taiba (LeT)       0.94      0.92      0.93        36
+                                          Left-Wing Militants       0.86      1.00      0.93        25
+                      Liberation Tigers of Tamil Eelam (LTTE)       1.00      0.99      1.00       103
+                                 Lord's Resistance Army (LRA)       1.00      1.00      1.00        46
+                                    Luhansk People's Republic       1.00      1.00      1.00        32
+                                                      Maoists       1.00      0.99      0.99       312
+                                                    Mayi Mayi       1.00      1.00      1.00        24
+                         Moro Islamic Liberation Front (MILF)       0.98      1.00      0.99        49
+                Mozambique National Resistance Movement (MNR)       1.00      1.00      1.00        18
+                                            Muslim extremists       0.99      0.92      0.95       136
+                 National Democratic Front of Bodoland (NDFB)       1.00      0.91      0.95        23
+                   National Liberation Army of Colombia (ELN)       0.98      0.98      0.98       106
+ National Socialist Council of Nagaland-Isak-Muivah (NSCN-IM)       0.94      1.00      0.97        16
+  National Union for the Total Independence of Angola (UNITA)       1.00      1.00      1.00        22
+                                      New People's Army (NPA)       1.00      1.00      1.00       363
+                                       Palestinian Extremists       0.99      0.99      0.99        87
+                              Palestinian Islamic Jihad (PIJ)       0.97      0.94      0.95        31
+                Revolutionary Armed Forces of Colombia (FARC)       0.99      0.99      0.99       200
+     Revolutionary Armed Forces of Colombia (FARC) dissidents       1.00      0.97      0.98        29
+                                   Runda Kumpulan Kecil (RKK)       1.00      0.96      0.98        23
+             Salafist Group for Preaching and Fighting (GSPC)       0.97      1.00      0.98        32
+                                                  Separatists       1.00      0.98      0.99       113
+                          Sinai Province of the Islamic State       1.00      1.00      1.00        83
+   Sudan People's Liberation Movement in Opposition (SPLM-IO)       1.00      1.00      1.00        23
+                                                      Taliban       1.00      0.99      1.00      1796
+                              Tehrik-i-Taliban Pakistan (TTP)       0.96      1.00      0.98       223
+                                                    Tribesmen       0.92      0.88      0.90        25
+                        Tripoli Province of the Islamic State       1.00      1.00      1.00        54
+                      United Liberation Front of Assam (ULFA)       0.96      0.98      0.97        53
+                              White supremacists/nationalists       0.77      0.81      0.79        21
+
+                                                     accuracy                           0.99      9274
+                                                    macro avg       0.98      0.98      0.98      9274
+                                                 weighted avg       0.99      0.99      0.99      9274
