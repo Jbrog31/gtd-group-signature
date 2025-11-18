@@ -1,0 +1,14 @@
+# Ignore datasets
+data/raw/*
+data/processed/*
+
+# But keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore venv
+.venv/
+
+# Ignore macOS files
+.DS_Store
+
