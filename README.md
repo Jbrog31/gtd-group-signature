@@ -5,7 +5,7 @@ This project applies supervised machine learning to the Global Terrorism Databas
 The goal is twofold:
 
 - Predict which group committed an attack based solely on the descriptive summary and contextual metadata.
-- Extract interpretable linguistic and operational signatures that characterize each group’s behavior.
+- Extract linguistic and operational signatures that characterize each group’s behavior.
 
 The central question is whether simple text-based models can accurately recover organizational identity and whether those discovered signatures align with real-world geographic, tactical, and ideological patterns. This project demonstrates that terrorist groups exhibit strong, consistent signatures that can be identified through text, enabling both accurate classification and analytical insights.
 
