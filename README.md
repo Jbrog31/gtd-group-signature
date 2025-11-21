@@ -31,7 +31,7 @@ Examples include:
 
 ***Project Structure***
 
-"
+```
 gtd-group-signature/
 │
 ├── data/
@@ -57,34 +57,34 @@ gtd-group-signature/
 │
 ├── requirements.txt
 └── README.md
-"
+```
 
 ***Installation***
 
 Clone the repository:
-
+```
 git clone https://github.com/Jbrog31/gtd-group-signature.git
 cd gtd-group-signature
-
+```
 Create and activate a virtual environment:
-
+```
 python -m venv .venv
 source .venv/bin/activate
-
+```
 Install dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 Ensure that the GTD Excel file is placed in:
-
+```
 data/raw/GlobalTerrorismDatabase.xlsx
-
+```
 ***Workflow***
 
 1. Preprocess the GTD data
-
+```
 python src/preprocess_gtd_group_text.py
-
+```
 This script:
 
 - Removes unusable or short summaries
@@ -94,9 +94,9 @@ This script:
 - Outputs: data/processed/gtd_group_text_subset.csv
 
 2. Train the baseline classifier
-
+```
 python src/train_baseline_tfidf.py
-
+```
 This step:
 
 - Vectorizes text using TF-IDF (uni/bigrams)
@@ -109,19 +109,19 @@ This step:
 - Model + vectorizer bundle
 
 3. Extract linguistic and operational signatures
-
+```
 python src/extract_signatures.py
-
+```
 This script extracts the top 30 most predictive n-grams per group, generating: 
-
+```
 reports/baseline_tfidf_signatures_top30.csv
-
+```
 This table can be used for signature comparison, audit, or visualization.
 
 4. Visualize signatures and group similarity
-
+```
 python src/plot_signatures.py
-
+```
 Produces:
 
 - Top-10 signature bar plots for each group
