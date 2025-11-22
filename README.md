@@ -7,7 +7,7 @@ Goals:
 - Predict which group committed an attack based solely on the descriptive summary and contextual metadata.
 - Extract linguistic and operational signatures that characterize each group’s behavior.
 
-The central question is whether simple text-based models can accurately recover identity and whether those discovered signatures align with real-world geographic, tactical, and ideological patterns. This project demonstrates that terrorist groups exhibit consistent signatures that can be identified through text, enabling both accurate classification and analytical insights.
+The central question is whether simple text-based models can accurately recover identity and whether those discovered signatures align with real-world geographic, tactical, and ideological patterns. This project demonstrates that terrorist groups exhibit consistent signatures that can be identified through text, enabling accurate classification.
 
 ***Groups Included***
 
@@ -170,14 +170,7 @@ This analysis uses the following components:
 - Cosine similarity for inter-group comparison
 - Visualizations with matplotlib
 
-All code is modular and can be reused for further modeling, such as:
-
-- Transformer-based models
-- Temporal analysis
-- Signature evolution
-- Cross-country comparisons
-
-***Future Extensions***
+***Future Ideas***
 
 Potential enhancements include:
 
