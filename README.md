@@ -35,16 +35,16 @@ Examples include:
 gtd-group-signature/
 │
 ├── data/
-│   ├── raw/                     # Original GTD Excel
-│   └── processed/               # Preprocessed model ready CSV
+│   ├── raw/
+│   └── processed/
 │
 ├── src/
-│   ├── preprocess_gtd_group_text.py   # Data cleaning and metadata merging
-│   ├── train_baseline_tfidf.py        # TF-IDF + LinearSVC baseline classifier
-│   ├── extract_signatures.py          # Top feature extraction per group
-│   └── plot_signatures.py             # Signature bar plots and similarity heatmap
+│   ├── preprocess_gtd_group_text.py
+│   ├── train_baseline_tfidf.py
+│   ├── extract_signatures.py
+│   └── plot_signatures.py
 │
-├── models/                     # Saved baseline model and vectorizer
+├── models/
 │
 ├── reports/
 │   ├── baseline_tfidf_val_report.txt
