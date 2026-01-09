@@ -16,7 +16,7 @@ This project includes all groups in GTD with more than 100 recorded incidents, e
 - "Unknown"
 - "Unaffiliated Individual(s)"
 
-This filtering produces a dataset of 70+ organizations with sufficient historical data to learn stable linguistic and operational profiles.
+This filtering produces a dataset of 70+ organizations with sufficient historical data to understand linguistic and operational profiles.
 
 Examples include:
 
@@ -133,7 +133,7 @@ reports/figures/
 
 ***Results Summary***
 
-The classification model achieves extremely strong performance:
+The classification model performs well:
 
 - Accuracy: 0.99
 - Macro F1-score: 0.98
@@ -155,8 +155,6 @@ Error patterns occur primarily among:
 - Islamic State provincial affiliates
 - Baloch separatist organizations
 - Palestinian militant factions
-
-This aligns closely with real-world relationships.
 
 ***Methodology***
 
